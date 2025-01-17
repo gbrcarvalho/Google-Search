@@ -43,3 +43,5 @@ O website segue os requerimentos, exigidos pelo curso, a seguir:
 ## Como visualizar a página?
 
 Baixar o projeto e abrir o index.html no seu navegador.
+
+![how-to](https://github.com/user-attachments/assets/26e6049a-ece0-424e-bc34-ad28ec2fe8a9)
