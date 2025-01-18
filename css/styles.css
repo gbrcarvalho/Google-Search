@@ -7,12 +7,31 @@ body, input, button {
 header {
     padding: 10px;
     text-align: right;
+    height: 30px;
+    border: 1px solid red
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+header div img {
+    height: 30px;
+    border: 1px solid blue;
+}
+
+.links {
+    
+    height: 30px;
+    border: 1px solid green;
 }
 
 header a {
     color: #1f1f1f;
     font-size: 13px;
     padding-left: 10px;
+    text-align: center;
     text-decoration: none;
 }
 
