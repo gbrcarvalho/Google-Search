@@ -8,22 +8,36 @@
         <header>
             <div class="top">
                 <div>
-                    <img src="./img/googlelogo_color_272x92dp.png" alt="Google">
+                    <img src="./img/googlelogo_color_272x92dp.png" href="./index.html" alt="Google">
                 </div>
                 <div class="links">
                     <a href="./index.html">Google</a>
                 </div>
             </div>
         </header>
-        <div>Pesquisa avançada</div><hr>
+        <div class="appbar">
+            <label style="margin-left: 10px">Pesquisa avançada</label>
+        </div><hr>
         <div>
-            <span>Localizar páginas com...</span>
+            <span id="locate">
+                Localizar páginas com...
+            </span>
             <form action="">
-                <label for="">todas estas palavras:</label><input type="text"><br>
-                <label for="">esta expressão ou frase exata:</label><input type="text"><br>
-                <label for="">qualquer uma destas palavras:</label><input type="text"><br>
-                <label for="">nenhuma destas palavras:</label><input type="text"><br>
-                <label for="">números que variam de:</label><input type="text"><label for="">a</label><input type="text" name="" id=""><hr>
+                <span class="label-fields">
+                    <label for="">todas estas palavras:</label><input type="text"><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">esta expressão ou frase exata:</label><input type="text"><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">qualquer uma destas palavras:</label><input type="text"><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">nenhuma destas palavras:</label><input type="text"><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">números que variam de:</label><input type="text"><label for="">a</label><input type="text" name="" id=""><hr>
+                </span>
             </form>
             <span>Em seguida, limite seus resultados por...</span>
             <form action="">
