@@ -42,12 +42,30 @@ O website segue os requerimentos, exigidos pelo curso, a seguir:
 
 ## Como visualizar a página?
 
-Acessar:
-
-https://gbrcarvalho.github.io/Google-Search/
-
-Ou,
+#### Recomendado:
 
 Baixar o projeto e abrir o index.html no seu navegador.
 
 ![how-to](https://github.com/user-attachments/assets/26e6049a-ece0-424e-bc34-ad28ec2fe8a9)
+
+Ou,
+
+Acessar:
+
+https://gbrcarvalho.github.io/Google-Search/
+
+Edit: Pouco tempo após subir a página, ao entrar na página, recebi um aviso do meu navegador indicando que se trata de um site malicioso. Isso é comum, visto que o website se parece com a página de pesquisa do Google. No link https://github.com/orgs/community/discussions/30261, temos mais informações sobre isso.
+
+#### Título do post:  
+> "My GitHub pages is getting marked as Dangerous by Chrome #30261"
+
+#### Conteúdo:
+> "Yesterday I have deployed a static website on GitHub pages , It worked fine but when it was deployed, it is getting blocked by google chrome browser, and giving a security error.
+I have attached the screenshot of that error, kindly someone help me out to fix this issue."
+
+#### Resposta: 
+> "Does any of your pages sites have something that looks like some other website? I've seen a bunch of people ask for help here after they made something that looks like a popular service for HTML/CSS practice (Netflix seems very popular! 😅), put that on Pages, and then ended up on the Google Safe Browsing phishing list.
+
+> See the Google Safe Browsing documentation on Social engineering (phishing and deceptive sites) for what you can do.
+
+> GitHub support can't help there, because the warning isn't created by your Pages site. It's your browser telling you 'this site is on the Google Safe Browsing list of phishing sites'."
