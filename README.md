@@ -26,7 +26,7 @@ O website segue os requerimentos, exigidos pelo curso, a seguir:
   - [] Encontrar páginas com... “Qualquer uma dessas palavras:”
   - [] Encontrar páginas com... “Nenhuma dessas palavras:”
   
-- [] Assim como a página de pesquisa avançada do Google, as quatro opções devem ser empilhadas verticalmente e todos os campos de texto devem ser alinhados à esquerda.
+- [x] Assim como a página de pesquisa avançada do Google, as quatro opções devem ser empilhadas verticalmente e todos os campos de texto devem ser alinhados à esquerda.
   - [] De acordo com o próprio CSS do Google, o botão “Pesquisa Avançada” deve ser azul com texto branco.
   - [] Quando o botão “Pesquisa Avançada” é clicado, o usuário deve ser levado para a página de resultados da pesquisa para sua consulta específica.
   
