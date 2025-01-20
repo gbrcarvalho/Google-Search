@@ -43,27 +43,35 @@ header a:hover {
     margin: 25px 35px;
 }
 
-#locate {
+.locate {
     display: block;
-    border: 1px solid crimson;
+    /*border: 1px solid crimson;*/
     height: 50px;
 }
 
 .label-fields {
     display: flex;
     height: 30px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .label-fields label {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     font-size: 13px;
     line-height: 30px;
-    width: 30%
+    min-width: 190px;
 }
 
 .label-fields input {
-    border: 1px solid blue;
+    min-width: 570px;
+    /*border: 1px solid blue;*/
+}
+
+.label-fields div {
+    font-size: 11px;
+    line-height: 30px;
+    min-width: 190px;
+    /*border: 1px solid yellow;*/
 }
 
 .content {
@@ -130,4 +138,13 @@ header a:hover {
 
 .search-button input:active {
     border: 1px solid #4285F4;
+}
+
+.footer-links {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
 }

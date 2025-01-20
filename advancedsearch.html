@@ -19,42 +19,134 @@
             <label style="margin-left: 10px">Pesquisa avançada</label>
         </div><hr>
         <div>
-            <span id="locate">
+            <span class="locate">
                 Localizar páginas com...
             </span>
             <form action="">
                 <span class="label-fields">
-                    <label for="">todas estas palavras:</label><input type="text"><br>
+                    <label for="">
+                        todas estas palavras:
+                    </label>
+                    <input type="text">
+                    <div>
+                        Digite as palavras importantes: rat terrier tricolor
+                    </div>
                 </span>
                 <span class="label-fields">
-                    <label for="">esta expressão ou frase exata:</label><input type="text"><br>
+                    <label for="">
+                        esta expressão ou frase exata:
+                    </label>
+                    <input type="text">
+                    <div>
+                        Coloque palavras exatas entre aspas: "rat terrier"
+                    </div>
                 </span>
                 <span class="label-fields">
-                    <label for="">qualquer uma destas palavras:</label><input type="text"><br>
+                    <label for="">
+                        qualquer uma destas palavras:
+                    </label>
+                    <input type="text">
+                    <div>
+                        Digite OR entre todas as palavras que você procura: miniatura OR padrão
+                    </div>
                 </span>
                 <span class="label-fields">
-                    <label for="">nenhuma destas palavras:</label><input type="text"><br>
+                    <label for="">
+                        nenhuma destas palavras:
+                    </label>
+                    <input type="text">
+                    <div>
+                        Coloque um sinal de menos antes das palavras que você não quer: -roedor, -"Jack Russell"
+                    </div>
                 </span>
                 <span class="label-fields">
-                    <label for="">números que variam de:</label><input type="text"><label for="">a</label><input type="text" name="" id=""><hr>
+                    <label for="">
+                        números que variam de:
+                    </label>
+                    <input style="min-width: 265px;" type="text">
+                    <span style="font-size: 13px; text-align: center; min-width: 34px; line-height: 30px;">
+                        a
+                    </span>
+                    <input style="min-width: 265px;" type="text" name="" id="">
+                    <div>
+                        Coloque 2 pontos finais entre os números e adicione uma unidade de medida: 10..35 lb, US$ 300..US$ 500, 2010..2011
+                    </div><hr>
                 </span>
             </form>
-            <span>Em seguida, limite seus resultados por...</span>
+            <span class="locate">
+                Em seguida, limite seus resultados por...
+            </span>
             <form action="">
-                <label for="">idioma:</label><select name="" id=""></select><br>
-                <label for="">idioma:</label><select name="" id=""></select><br>
-                <label for="">idioma:</label><select name="" id=""></select><br>
-                <label for="">idioma:</label><input type="text"><br>
-                <label for="">idioma:</label><select name="" id=""></select><br>
-                <label for="">idioma:</label><select name="" id=""></select><br>
-                <label for="">idioma:</label><select name="" id=""></select><br>
-                <input type="submit"><hr>
+                <span class="label-fields">
+                    <label for="idioma">
+                        idioma:
+                    </label>
+                    <select name="idioma" id="" placeholder="qualquer idioma"></select>
+                    <div>
+                        Localizar páginas no idioma selecionado.
+                    </div><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">
+                        região:
+                    </label>
+                    <select name="" id=""></select>
+                    <div>
+                        Encontre páginas publicadas em uma determinada região.
+                    </div><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">
+                        última atualização:
+                    </label>
+                    <select name="" id=""></select>
+                    <div>
+                        Encontre páginas atualizadas dentro do tempo especificado.
+                    </div><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">
+                        site ou domínio:
+                    </label>
+                    <input type="text">
+                    <div>
+                        Pesquise um site (como wikipedia.org ) ou limite seus resultados a um domínio como .edu, .org ou .gov
+                    </div><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">
+                        termos que aparecem:
+                    </label>
+                    <select name="" id=""></select>
+                    <div>
+                        Pesquise por termos em toda a página, no título da página, no endereço da Web ou em links para a página que está procurando.
+                    </div><br>
+                </span>
+                <span class="label-fields">
+                    <label for="">
+                        tipo de arquivo:
+                    </label>
+                    <select name="" id=""></select>
+                    <div>
+                        Encontre páginas no formato que preferir.
+                    </div><br>
+                </span>
+                <span class="label-fields">
+                    <label for="" style="color: blue;">
+                        direitos de uso:
+                    </label>
+                    <select name="" id=""></select>
+                    <div>
+                        Encontre páginas em que não haja restrições de uso.
+                    </div><br>
+                </span>
+                    <input type="submit"><hr>
             </form>
             <span>Você também pode...</span><br><br>
-            <span>Encontrar páginas semelhantes a um URL</span><br>
-            <span>Encontrar páginas semelhantes a um URL</span><br>
-            <span>Encontrar páginas semelhantes a um URL</span><br>
-            <span>Encontrar páginas semelhantes a um URL</span><br>
+            <a class="footer-links" href="https://support.google.com/websearch/answer/2466433?visit_id=638730106031068618-3243451306&p=adv_pages_similar&hl=pt-BR&rd=1">Encontrar páginas semelhantes a um URL</a><br>
+            <a class="footer-links" href="https://support.google.com/websearch/answer/54068?hl=pt-BR&visit_id=638730106033867554-2937346550&p=adv_pages_visited&rd=1">Páginas de pesquisa que você visitou</a><br>
+            <a class="footer-links" href="https://support.google.com/websearch/answer/2466433?visit_id=638730106033867554-2937346550&p=adv_operators&hl=pt-BR&rd=1">Usar operadores na caixa de pesquisa</a><br>
+            <a class="footer-links" href="https://www.google.com/preferences?hl=pt-BR">Personalizar suas configurações de pesquisa</a><br>
         </div>
     </body>
 </html>
